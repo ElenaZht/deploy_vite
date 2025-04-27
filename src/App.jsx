@@ -36,7 +36,7 @@ function App() {
     <>
       <h1>welcome!</h1>
       <input type="text" ref={nameRef}/>
-      <button onClick={handleSubmit}>say hello</button>
+      <button onClick={handleSubmit}>say hello to user</button>
       <h4>{msg}</h4>
     </>
   )
